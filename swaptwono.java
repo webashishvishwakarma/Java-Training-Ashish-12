@@ -1,15 +1,15 @@
 public class swaptwono {
     public static void main(String[] args) {
-        
-        int a=10;
-        int b=20;
-        int t;
-         t = a;
-         a=b;
-         b=t;
-         
-         System.out.println("no of a"    + a);
-         System.out.println("b"+b);
+
+        System.out.print("enter the no.");
+        int a = 10;
+        int b = 20;
+        int temp;
+        temp = a;
+        a = b;
+        b = temp;
+        System.out.println("first no a " + (a));
+        System.out.println("second no b" + (b));
     }
-    
+
 }
